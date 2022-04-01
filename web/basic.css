@@ -1,0 +1,167 @@
+html,
+body,
+body>div{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 0 20px 20px #f8f8f8;
+    height: 0;
+}
+
+#plus-sign{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+#plus-sign::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #000;
+    height: 5px;
+    margin-top: -5px;
+    top: 55%;
+    left: 5px;
+    right: 5px;
+    z-index: 9;
+}
+#plus-sign::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #000;
+    width: 5px;
+    margin-left: -5px;
+    left: 55%;
+    top: 5px;
+    bottom: 5px;
+    z-index: 9;
+}
+
+#tick-sign {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+#tick-sign::before,
+#tick-sign::after{
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+#tick-sign::before {
+    top: 50%;
+    height: 50%;
+    width: 5px;
+}
+
+#tick-sign::after {
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+}
+
+#painting{
+    height: 400px;
+    width: 700px;
+    background: lightskyblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.tree{
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leaves{
+    background: forestgreen;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-bottom: -20px;
+    z-index: 1;
+}
+
+.trunk{
+    background: saddlebrown;
+    width: 50px;
+    height: 150px;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    background: #ffff80;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 0 100px 100px rgba(255, 255, 191, 0.45);
+}
+
+.house-wrapper{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+.house-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.house-top{
+    border-bottom: 100px solid firebrick;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    position: relative;
+}
+
+.chimney{
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    background: ghostwhite;
+    top: -30px;
+    right: 20px;
+}
+
+.house-body{
+    background: antiquewhite;
+    height: 200px;
+}
+
+.door{
+
+}
