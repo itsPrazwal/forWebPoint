@@ -1,8 +1,14 @@
-FOR CLI
+FOR **CLI**
 
-reach the folder directory in command line
+Reach the folder directory in command line
 
-use following commands:
+Use following commands:
 
-1. node . (For creating tables & inserting data from data.json)
-2. node report.js (For getting the select query results)
+1. `node .` (For _creating_ tables & _inserting_ data from **data.json**)
+2. `node report.js` (For getting the _select_ query results)
+
+FOR **WEB**
+
+Reach the folder directory
+
+Run the `basic.html` file to see the **output**.
