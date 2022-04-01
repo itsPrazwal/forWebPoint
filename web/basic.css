@@ -1,10 +1,10 @@
 html,
-body,
-body>div{
+body{
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
+    background-color: antiquewhite;
 }
 
 body>div{
@@ -29,7 +29,7 @@ body>div{
 }
 
 #plus-sign::after {
-    content: " ";
+    content: "";
     position: absolute;
     display: block;
     background-color: #000;
@@ -41,7 +41,7 @@ body>div{
     z-index: 9;
 }
 #plus-sign::before {
-    content: " ";
+    content: "";
     position: absolute;
     display: block;
     background-color: #000;
@@ -160,8 +160,57 @@ body>div{
 .house-body{
     background: antiquewhite;
     height: 200px;
+    position: relative;
 }
 
 .door{
+    height: 100px;
+    background: saddlebrown;
+    border: 2px solid black;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
 
+.window-1,
+.window-2{
+    width: 75px;
+    height: 60px;
+    background: blue;
+    position: absolute;
+    top: 20px;
+    border: 2px dashed black;
+}
+
+.window-1{
+    left: 20px;
+}
+
+.window-2{
+    right: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.paragraph-not{
+    font-weight: bold;
+}
+
+.not-wrapper :not(p) :not(.span2){
+    text-decoration: underline overline;
+}
+
+p:not(.paragraph-not){
+    color: green;
+}
+
+.not-wrapper h2 span:not(.span1){
+    text-decoration: line-through;
+}
+
+.not-wrapper h2 :not(span.span1){
+    color: red;
 }
