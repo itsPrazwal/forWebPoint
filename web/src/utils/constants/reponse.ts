@@ -5,6 +5,15 @@ const commonResponse = {
   }
 }
 
+const errorResponse = {
+  FETCH_FILE_DATA: 'Error fetching data from JSON file.'
+}
+
+const successResponse = {
+  COUNT_FILE_DATA: 'Successfully counted JSON file data.',
+  FETCH_FILE_DATA: 'Successfully fetched JSON file data.'
+}
+
 const responseCode = {
   ACCEPTED: 202,
   BAD_REQUEST: 400,
@@ -20,4 +29,4 @@ const responseCode = {
   UNAUTHORIZED: 401
 }
 
-export { commonResponse, responseCode }
+export { commonResponse, responseCode, errorResponse, successResponse }
