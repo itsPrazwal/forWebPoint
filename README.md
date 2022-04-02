@@ -18,3 +18,4 @@ FOR **WEB**
 Reach the folder directory
 
 1. Start the server by using: `npm start`
+2. Can check the code using linter (eslint): `npm run lint` & `npm run lint --fix` (to fix)
