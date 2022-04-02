@@ -2,7 +2,7 @@ import * as fs from "fs";
 import {ErrorObject} from "../types";
 
 const readFile = <T>(filePath: string):Promise<ErrorObject | T> => {
-    return new Promise<ErrorObject | T>((resolve) => {
+    return new Promise((resolve) => {
         fs.readFile(filePath, (err, jsonString) => {
             if(err){
                 console.log('Error fetching data: ', err)

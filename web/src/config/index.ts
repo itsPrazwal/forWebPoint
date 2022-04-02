@@ -1,3 +1,6 @@
+// SETTING UP DATABASE WITH DATA
+import './setup'
+
 // Initiating configuration of database
 import database from './database'
 
