@@ -11,7 +11,7 @@ server.use(cors())
 server.use(express.urlencoded({ extended: true }))
 server.use(express.json())
 
-server.listen(parseInt(PORT), '', 0,() => {
+server.listen(parseInt(PORT), '', 0, () => {
   /* eslint-disable */
   console.log('Server listening at port ' + PORT)
   /* eslint-enable */

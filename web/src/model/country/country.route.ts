@@ -1,5 +1,5 @@
-import {Router} from "express";
-import {conFetchAllCountries, conFetchCountryCount} from "./country.controller";
+import { Router } from 'express'
+import { conFetchAllCountries, conFetchCountryCount } from './country.controller'
 
 const router = Router()
 

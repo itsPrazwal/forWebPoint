@@ -1,5 +1,5 @@
-import { Router } from "express";
-import {countryRouter, jsonRouter, productRouter, saleRouter} from "./model";
+import { Router } from 'express'
+import { countryRouter, jsonRouter, productRouter, saleRouter } from './model'
 
 const router = Router()
 

@@ -1,5 +1,5 @@
-import {Router} from "express";
-import {conFetchAllSales, conFetchSaleCount, conQuestion3, conQuestion4A, conQuestion4B} from "./sales.controller";
+import { Router } from 'express'
+import { conFetchAllSales, conFetchSaleCount, conQuestion3, conQuestion4A, conQuestion4B } from './sales.controller'
 
 const router = Router()
 

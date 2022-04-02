@@ -1,7 +1,7 @@
 const commonResponse = {
   error: {
     INTERNAL_SERVER: 'Internal server error.',
-    INVALID_BODY: 'The data you have provided is incorrect or insufficient.',
+    INVALID_BODY: 'The data you have provided is incorrect or insufficient.'
   }
 }
 

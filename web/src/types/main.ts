@@ -7,8 +7,8 @@ interface ErrorObject {
 }
 
 export type {
-    ErrorObject,
-    GenericArray,
-    FunctionWithParams,
-    FunctionWithParamsAndReturn
+  ErrorObject,
+  GenericArray,
+  FunctionWithParams,
+  FunctionWithParamsAndReturn
 }

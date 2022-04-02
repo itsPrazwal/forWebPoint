@@ -7,6 +7,6 @@ interface FieldTypeCountryDB extends FieldTypeCountry{
 }
 
 export type {
-    FieldTypeCountry,
-    FieldTypeCountryDB
+  FieldTypeCountry,
+  FieldTypeCountryDB
 }

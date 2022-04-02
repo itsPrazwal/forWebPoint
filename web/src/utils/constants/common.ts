@@ -1,4 +1,4 @@
-import * as path from "path";
+import * as path from 'path'
 
 const JSON_FILE_NAME = 'mockData.json'
 

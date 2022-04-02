@@ -7,6 +7,6 @@ interface FieldTypeProductDB extends FieldTypeProduct{
 }
 
 export type {
-    FieldTypeProduct,
-    FieldTypeProductDB
+  FieldTypeProduct,
+  FieldTypeProductDB
 }

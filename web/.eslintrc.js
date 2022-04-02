@@ -15,5 +15,6 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    "prefer-promise-reject-errors": "off"
   }
 }
